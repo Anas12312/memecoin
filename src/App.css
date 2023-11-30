@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .nav-bar {
+       @apply w-full h-[18%] bg-primary-1 shadow-sm shadow-gray-900 flex justify-center items-center
+              
+    }
+    .nav-bar-item {
+        @apply text-white flex justify-center items-center text-2xl p-1 mx-2
+                font-bold hover:cursor-pointer hover:text-gray-300
+    }
+    .trans {
+        @apply transition-all ease-linear duration-300
+    }
+    .nav-bar-buy-now {
+        @apply flex justify-center items-center border rounded-3xl text-white
+                p-2 px-5 text-xl font-bold hover:cursor-pointer hover:bg-slate-500
+    }
+}   
