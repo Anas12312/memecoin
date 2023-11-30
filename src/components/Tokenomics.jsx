@@ -15,7 +15,6 @@ export default function Tokenomics() {
           <div>No Taxes, No Bullshit. It’s that simple. </div>
           <br></br>
           <div>LP tokens are burnt, and contract ownership is renounced. </div>
-        </div>
     </div>
   )
 }
