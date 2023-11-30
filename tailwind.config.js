@@ -10,6 +10,9 @@ export default {
         'primary-1': '#4f9843',
         'primary-2': '#4c9540'
       },
+      fontFamily: {
+        'sans': ['next-bravo', 'Helvetica', 'Arial', 'sans-serif']
+      }
     },
     
   },

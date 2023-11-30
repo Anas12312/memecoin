@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import About from './components/About'
+import Tokenomics from './components/Tokenomics'
+import Roadmap from './components/Roadmap'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +15,10 @@ function App() {
     <div className='h-screen w-screen bg-primary-2 overflow-x-hidden'>
       <Navbar />
       <Main />
-      <Main />
+      <About />
+      <Tokenomics />
+      <Roadmap />
+      
     </div>
   )
 }
