@@ -3,11 +3,11 @@ import React from 'react'
 export default function Tokenomics() {
   return (
     <div className='w-full overflow-hidden pt-14 pb-32 relative bg-green flex flex-col items-center border-y-4 border-white'>
-      <div className='text-8xl text-white font-Urban-Melted-Extrude'>
+      <div className='text-8xl text-white font-Urban-Melted outline-text'>
         TOKENOMICS
       </div>
 
-      <div className='flex flex-col justify-center mt-16 items-center font-bold text-4xl text-white font-Chewy'>
+      <div className='flex flex-col justify-center mt-16 items-center text-4xl text-white font-Chewy '>
         <div>token supply:</div>
         <div className='text-4xl'>690,000,000,000,000</div>
       </div>
