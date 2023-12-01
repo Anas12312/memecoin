@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <div className='w-full overflow-hidden pt-20 relative'>
+    <div className='w-full overflow-hidden pb-20 relative border-b-4 border-white'>
         <img className='object-cover opacity-20' src="https://static.wixstatic.com/media/1f3f2b_45e0862f90b549b2b8858d28a44b60cc~mv2.png/v1/fill/w_1903,h_896,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1f3f2b_45e0862f90b549b2b8858d28a44b60cc~mv2.png" alt="" />
         <div className='w-full h-full absolute top-0 flex flex-col justify-center items-center'>
             <div className='h-[55%] text-white w-[70%] flex justify-between items-center'>
