@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "next-bravo";
-    src: url('../public/Next\ Bravo.ttf') format("ttf");
+    font-family: "Next-Bravo";
+    font-style: normal;
+    font-weight: 500;
+    src: 
+    local(''),
+    url('./fonts/Next-Bravo.ttf') format("ttf");
 }
+
 @layer components {
     .nav-bar {
        @apply w-full h-[18%] bg-primary-1 shadow-sm shadow-gray-900 flex justify-center items-center
@@ -23,3 +28,7 @@
                 p-2 px-5 text-xl font-bold hover:cursor-pointer hover:bg-slate-500
     }
 }   
+
+body {
+    font-family: 'Poppins';
+}

@@ -11,7 +11,8 @@ export default {
         'primary-2': '#4c9540'
       },
       fontFamily: {
-        'sans': ['next-bravo', 'Helvetica', 'Arial', 'sans-serif']
+        'Poppins': ['"Poppins"','sans-serif'],
+        'Next-Bravo': ['"Next-Bravo"', 'sans-serif']
       }
     },
     
