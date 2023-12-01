@@ -14,7 +14,7 @@ export default function Tokenomics() {
 
 
       <div className='flex flex-col justify-center items-start text-4xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
-                              border-2 w-2/4 px-7 py-5 text-white mt-10 bg-[#274f79] rounded-tr-3xl rounded-bl-3xl'>
+                              border-4 border-[#274f79] w-2/4 px-7 py-5 text-[#274f79] mt-10 bg-[#ffffff] rounded-tr-3xl rounded-bl-3xl rounded-br-3xl'>
         <div>No Taxes, No Bullshit. It’s that simple. </div>
         <br></br>
         <div>LP tokens are burnt, and contract ownership is renounced. </div>
