@@ -3,13 +3,33 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Next-Bravo";
+    font-family: 'Next-Bravo';
     font-style: normal;
-    font-weight: 500;
-    src: 
-    local(''),
-    url('./fonts/Next-Bravo.ttf') format("ttf");
+    font-weight: normal;
+    src: local('Next-Bravo'), url('./fonts/Next-Bravo.woff') format('woff');
 }
+
+
+@font-face {
+    font-family: 'Roadway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roadway'), url('./fonts/Roadway.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Urban Melted Extrude';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urban Melted Extrude'), url('./fonts/Urban Melted Extrude.woff') format('woff');
+}
+@font-face {
+    font-family: 'Urban Melted';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urban Melted'), url('./fonts/Urban Melted.woff') format('woff');
+}
+
 
 @layer components {
     .nav-bar {
@@ -38,12 +58,13 @@ body {
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
     color: #fff;
-    font-family: monospace;
+    /* font-family: monospace; */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
+    padding: 6px;
     animation: 
       typing 0.75s steps(30, end),
       blink-caret .5s step-end infinite;
