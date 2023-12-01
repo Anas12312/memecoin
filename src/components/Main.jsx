@@ -7,10 +7,10 @@ export default function Main() {
         <div className='w-full h-full absolute top-0 flex flex-col justify-center items-center'>
             <div className='h-[55%] text-white w-[60%] flex justify-between items-center'>
                 <div className='h-full w-[80%] flex justify-start items-start flex-col'>
-                    <div className='p-5 text-4xl font-bold font-sans'>
-                        $Harold
+                    <div className='p-5 text-7xl font-bold typewriter flex justify-start items-start'>
+                        <h1>$Harold</h1>
                     </div>
-                    <div className='p-5 text-3xl w-4/5'>
+                    <div className='p-5 text-4xl w-4/5 font-Chewy'>
                         the meme champion disrupting the crypto arena. The canine craze fades as Harold steps up to claim the throne from Pepe!
                     </div>
                 </div>
