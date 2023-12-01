@@ -3,13 +3,33 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Next-Bravo";
+    font-family: 'Next-Bravo';
     font-style: normal;
-    font-weight: 500;
-    src: 
-    local(''),
-    url('./fonts/Next-Bravo.ttf') format("ttf");
+    font-weight: normal;
+    src: local('Next-Bravo'), url('./fonts/Next-Bravo.woff') format('woff');
 }
+
+
+@font-face {
+    font-family: 'Roadway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roadway'), url('./fonts/Roadway.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Urban Melted Extrude';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urban Melted Extrude'), url('./fonts/Urban Melted Extrude.woff') format('woff');
+}
+@font-face {
+    font-family: 'Urban Melted';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urban Melted'), url('./fonts/Urban Melted.woff') format('woff');
+}
+
 
 @layer components {
     .nav-bar {
@@ -17,33 +37,38 @@
               
     }
     .nav-bar-item {
-        @apply text-white flex justify-center items-center text-2xl p-1 mx-2
-                font-bold hover:cursor-pointer hover:text-gray-300
+        @apply text-white flex justify-center items-center text-3xl p-1 mx-2
+                hover:cursor-pointer hover:text-gray-300
     }
     .trans {
         @apply transition-all ease-linear duration-300
     }
     .nav-bar-buy-now {
         @apply flex justify-center items-center border rounded-3xl text-white
-                p-2 px-5 text-xl font-bold hover:cursor-pointer hover:bg-slate-500
-    }
+                p-2 px-5 text-xl hover:cursor-pointer hover:bg-slate-500 outline-text-none
+    } 
 }   
 
 body {
     font-family: 'Mouse Memoirs';
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
 }
+
+
 
 
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
     color: #fff;
-    font-family: monospace;
+    /* font-family: monospace; */
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
+    padding: 6px;
     animation: 
       typing 0.75s steps(30, end),
       blink-caret .5s step-end infinite;
@@ -60,3 +85,13 @@ body {
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+
+.outline-text {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.outline-text-none {
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}

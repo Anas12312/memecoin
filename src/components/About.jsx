@@ -8,7 +8,7 @@ export default function About() {
                 <img className='w-[20rem]' src='https://www.symbols.com/images/symbol/2847_icy-tower-logo.png' />
             </div>
             <div className='w-[40rem] flex flex-col p-2'>
-                <div className='text-7xl text-white text-center m-10 font-bold'>
+                <div className='text-8xl text-white text-center m-10  font-Urban-Melted outline-text'>
                     about
                 </div>
                 <div className='text-3xl text-white font-Chewy'>

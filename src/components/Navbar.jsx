@@ -30,7 +30,7 @@ export default function Navbar({
           </div>
           <div className='mx-2 hover:scale-110 trans hover:cursor-pointer w-12'
                 onClick={() => {
-                  window.open('https://twitter.com/HaroldonSol', '_blank');
+                  window.open('https://t.me/HaroldCoinOnSol', '_blank');
                 }}>
             <img src="https://static.wixstatic.com/media/1f3f2b_af942b4585dd4bf9baaa6e151c02f1b4~mv2.png/v1/fill/w_106,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/twttttee2.png" alt="" />
           </div>
