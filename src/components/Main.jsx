@@ -4,7 +4,7 @@ export default function Main() {
     const myRef = useRef(null)
 
     return (
-        <div className='w-full overflow-hidden pb-20 relative border-y-4 border-white h-[40rem]' ref={myRef}>
+        <div className='w-full overflow-hidden pb-20 relative border-b-4 border-white h-[40rem]' ref={myRef}>
             <img className='object-cover opacity-20' src="" alt="" />
             <div className='w-full h-full absolute top-0 flex flex-col justify-center items-center'>
                 <div className='h-[55%] text-white w-[60%] flex justify-between items-center'>
