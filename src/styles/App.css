@@ -17,7 +17,7 @@
               
     }
     .nav-bar-item {
-        @apply text-white flex justify-center items-center text-2xl p-1 mx-2
+        @apply text-white flex justify-center items-center text-4xl p-1 mx-2
                 font-bold hover:cursor-pointer hover:text-gray-300
     }
     .trans {
