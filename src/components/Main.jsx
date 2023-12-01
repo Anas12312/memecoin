@@ -10,7 +10,7 @@ export default function Main() {
             <div className='w-full h-full absolute top-0 flex flex-col justify-center items-center'>
                 <div className='h-[55%] text-white w-[60%] flex justify-between items-center'>
                     <div className='h-full w-[80%] flex justify-start items-start flex-col'>
-                        <div className='p-5 text-6xl typewriter font-Next-Bravo '>
+                        <div className='p-5 text-6xl typewriter font-Next-Bravo outline-text '>
                             <h1>$Harold</h1>
                         </div>
                         <div className='p-5 text-4xl w-4/5 font-Chewy'>
