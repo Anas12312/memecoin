@@ -11,7 +11,7 @@ export default function About() {
                 <div className='text-7xl text-white text-center m-10 font-bold'>
                     about
                 </div>
-                <div className='text-2xl text-white'>
+                <div className='text-3xl text-white font-Chewy'>
                     Harold, a tribute to the iconic meme, steps into the crypto arena, breaking free from the endless Inu coin frenzy. In a world cluttered with derivatives, Harold is here to reclaim the throne for memecoins on the Solana blockchain. Launched without a presale, featuring zero taxes, burnt LP, and a renounced contract, $HAROLD is a coin crafted for the people, fueled by the raw power of memes. Let Harold guide you on a meme-filled journey towards a brighter and more 
                 </div>
             </div>

@@ -11,8 +11,8 @@ export default {
         'primary-2': '#376ac3'
       },
       fontFamily: {
-        'Poppins': ['"Poppins"','sans-serif'],
-        'Next-Bravo': ['"Next-Bravo"', 'sans-serif']
+        'Mouse Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],
+        'Bungee-Spice': ['"Bungee Spice"', 'sans-serif']
       }
     },
     

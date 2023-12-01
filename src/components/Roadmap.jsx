@@ -9,7 +9,7 @@ export default function Roadmap() {
             </div>
             <div className='w-[30rem] flex flex-col items-center'>
               <div className='text-7xl text-white font-bold'>Roadmap</div>
-              <div className='flex flex-col justify-center items-start text-xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
+              <div className='flex flex-col justify-center items-start text-4xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
                               border-2 w-3/4 px-7 py-5 text-white mt-10 bg-[#274f79] rounded-tr-3xl rounded-bl-3xl'>
                                 Phase 1: Meme
                                 <br></br>
