@@ -1,16 +1,24 @@
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar({
+  scrollToMainRef,
+  scrollToAboutRef,
+  scrollToTokenomicsRef,
+  scrollToRoadmapRef,
+  scrollToContactRef,
+}) {
+
   return (
     <div className='nav-bar z-10'>
         <div className='mr-10 w-20'><img src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" /></div>
-        <div className='nav-bar-item trans'>Home</div>
-        <div className='nav-bar-item trans'>About</div>
-        <div className='nav-bar-item trans'>Tokenomics</div>
-        <div className='nav-bar-item trans'>Roadmap</div>
+        <div className='nav-bar-item trans' onClick={scrollToMainRef}>Home</div>
+        <div className='nav-bar-item trans' onClick={scrollToAboutRef}>About</div>
+        <div className='nav-bar-item trans' onClick={scrollToTokenomicsRef}>Tokenomics</div>
+        <div className='nav-bar-item trans' onClick={scrollToRoadmapRef}>Roadmap</div>
+        <div className='nav-bar-item trans' onClick={scrollToContactRef}>Contact</div>
         <div className='nav-bar-item trans'>Air Drop</div>
         <div className='nav-bar-item trans mr-5'>Pre Sale</div>
-        <div className='nav-bar-buy-now trans mr-5'>buy now</div>
+        <div className='nav-bar-buy-now trans'>buy now</div>
         <div className='p-5 text-3xl flex justify-start items-center'>
           <div className='mx-2 hover:scale-110 trans hover:cursor-pointer w-12'
                 onClick={() => {
