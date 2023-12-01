@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center bg-primary-1'>
+    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center bg-primary-1 border-t-4'>
         <div className='w-[50%] h-full flex flex-col items-center'>
             <div className='text-7xl text-white mb-14 font-bold'>Contact</div>
             <div className='text-xl text-white mb-8'>

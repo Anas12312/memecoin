@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
@@ -11,17 +11,54 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const mainRef = useRef(null);
+  const aboutRef = useRef(null);
+  const tokenomicsRef = useRef(null);
+  const roadMapRef = useRef(null);
+  const contactRef = useRef(null);
+  const scrollToMainRef = () => {
+    mainRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToAboutRef = () => {
+    aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToTokenomicsRef = () => {
+    tokenomicsRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToRoadmapRef = () => {
+    roadMapRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToContactRef = () => {
+    contactRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div className='h-screen w-screen bg-primary-2 overflow-x-hidden'>
-      <Navbar />
-      <Main />
-      <About />
-      <Tokenomics />
-      <Roadmap />
-      <Contact />
-      <Footer />
+      <Navbar 
+        scrollToMainRef={scrollToMainRef}
+        scrollToAboutRef={scrollToAboutRef}
+        scrollToTokenomicsRef={scrollToTokenomicsRef}
+        scrollToRoadmapRef={scrollToRoadmapRef}
+        scrollToContactRef={scrollToContactRef}
+      />
+      <div ref={mainRef}>
+        <Main />
+      </div>
+      <div ref={aboutRef}>
+        <About />
+      </div>
+      <div ref={tokenomicsRef}>
+        <Tokenomics />
+      </div>
+      <div ref={roadMapRef}>
+        <Roadmap />
+      </div>
+      <div ref={contactRef}>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }

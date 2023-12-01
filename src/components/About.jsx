@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-b-4 border-white'>
+    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-y-4 border-white'>
         <div className='w-[80%] h-full flex'>
             <div className='w-1/2 flex justify-center items-center'>
                 <img className='w-[20rem]' src='https://www.symbols.com/images/symbol/2847_icy-tower-logo.png' />
