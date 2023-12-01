@@ -7,7 +7,9 @@ export default function Navbar({
   scrollToRoadmapRef,
   scrollToContactRef,
 }) {
-
+  const comingSoon = () => {
+    alert('Coming Soon...')
+  }
   return (
     <div className='nav-bar z-10'>
         <div className='mr-10 w-20'><img src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" /></div>
@@ -16,9 +18,9 @@ export default function Navbar({
         <div className='nav-bar-item trans' onClick={scrollToTokenomicsRef}>Tokenomics</div>
         <div className='nav-bar-item trans' onClick={scrollToRoadmapRef}>Roadmap</div>
         <div className='nav-bar-item trans' onClick={scrollToContactRef}>Contact</div>
-        <div className='nav-bar-item trans'>Air Drop</div>
-        <div className='nav-bar-item trans mr-5'>Pre Sale</div>
-        <div className='nav-bar-buy-now trans'>buy now</div>
+        <div className='nav-bar-item trans' onClick={comingSoon}>Air Drop</div>
+        <div className='nav-bar-item trans mr-5' onClick={comingSoon}>Pre Sale</div>
+        <div className='nav-bar-buy-now trans' onClick={comingSoon}>buy now</div>
         <div className='p-5 text-3xl flex justify-start items-center'>
           <div className='mx-2 hover:scale-110 trans hover:cursor-pointer w-12'
                 onClick={() => {
