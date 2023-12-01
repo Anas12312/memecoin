@@ -18,6 +18,7 @@ export default function Main() {
                         </div>
                     </div>
                     <div className='h-full w-[20%]'>
+                        <img className='w-[22rem]' src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" />
                     </div>
                 </div>
             </div>
