@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='w-full overflow-hidden pt-20 relative flex justify-center items-center'>
+    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center bg-primary-1'>
         <div className='w-[50%] h-full flex flex-col items-center'>
-            <div className='text-7xl text-white mb-14'>Contact</div>
+            <div className='text-7xl text-white mb-14 font-bold'>Contact</div>
             <div className='text-xl text-white mb-8'>
                 <img className='w-52' src="https://static.wixstatic.com/media/1f3f2b_e78823e3b50f4f76963293a9ab1e19c3~mv2.png/v1/fill/w_264,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pepetitle.png" alt="" />
             </div>
