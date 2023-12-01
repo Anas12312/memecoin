@@ -12,7 +12,8 @@ export default {
       },
       fontFamily: {
         'Mouse Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],
-        'Bungee-Spice': ['"Bungee Spice"', 'sans-serif']
+        'Bungee-Spice': ['"Bungee Spice"', 'sans-serif'],
+        'DotGothic16': ['"DotGothic16"', 'sans-serif']
       }
     },
     
