@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Tokenomics() {
   return (
-    <div className='w-full overflow-hidden pt-14 pb-20 relative bg-green border-4 flex flex-col items-center'>
+    <div className='w-full overflow-hidden pt-14 pb-32 relative bg-green flex flex-col items-center border-b-4 border-white'>
       <div className='flex justify-center items-center font-bold text-7xl  text-white'>
         TOKENOMICS
       </div>
 
       <div className='flex flex-col justify-center mt-16 items-center font-bold text-3xl text-white'>
         <div>token supply:</div>
-        <div className='text-4xl'>420,690,000,000,000</div>
+        <div className='text-4xl'>690,000,000,000,000</div>
       </div>
 
       <div className='flex flex-col justify-center items-start text-xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
