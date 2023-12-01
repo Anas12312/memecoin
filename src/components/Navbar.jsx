@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className='nav-bar-item trans'>Roadmap</div>
         <div className='nav-bar-item trans'>Air Drop</div>
         <div className='nav-bar-item trans mr-5'>Pre Sale</div>
-        <div className='nav-bar-buy-now trans mr-5'>buy now</div>
+        <div className='nav-bar-buy-now trans'>buy now</div>
         <div className='p-5 text-3xl flex justify-start items-center'>
           <div className='mx-2 hover:scale-110 trans hover:cursor-pointer w-12'
                 onClick={() => {
