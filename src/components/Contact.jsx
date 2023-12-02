@@ -4,7 +4,6 @@ export default function Contact() {
   return (
     <div className='w-full overflow-hidden py-20 relative flex justify-center items-center bg-primary-1 border-t-4'>
         <div className='w-[50%] h-full flex flex-col items-center'>
-            <div className='text-8xl text-white mb-14 font-Urban-Melted outline-text'>Contact</div>
             <div className='text-xl text-white mb-8'>
                 <img className='w-28' src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" />
             </div>
