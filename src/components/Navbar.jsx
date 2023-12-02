@@ -5,20 +5,25 @@ export default function Navbar({
   scrollToAboutRef,
   scrollToTokenomicsRef,
   scrollToRoadmapRef,
-  scrollToContactRef,
 }) {
+  const mouseEnter = (e) => {
+    e.target?.classList.add('text-gradiant')
+  }
+  const mouseLeave = (e) => {
+    e.target?.classList.remove('text-gradiant')
+  }
   const comingSoon = () => {
     alert('Coming Soon...')
   }
   return (
     <div className='nav-bar z-10'>
         <div className='mr-10 w-20'><img src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" /></div>
-        <div className='nav-bar-item trans' onClick={scrollToMainRef}>Home</div>
-        <div className='nav-bar-item trans' onClick={scrollToAboutRef}>About</div>
-        <div className='nav-bar-item trans' onClick={scrollToTokenomicsRef}>Tokenomics</div>
-        <div className='nav-bar-item trans' onClick={scrollToRoadmapRef}>Roadmap</div>
-        <div className='nav-bar-item trans' onClick={comingSoon}>Air Drop</div>
-        <div className='nav-bar-item trans mr-5' onClick={comingSoon}>Pre Sale</div>
+        <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToMainRef}>Home</div>
+        <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToAboutRef}>About</div>
+        <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToTokenomicsRef}>Tokenomics</div>
+        <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToRoadmapRef}>Roadmap</div>
+        <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={comingSoon}>Air Drop</div>
+        <div className='nav-bar-item trans mr-5' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={comingSoon}>Pre Sale</div>
         <div className='nav-bar-buy-now trans' onClick={comingSoon}>buy now</div>
         <div className='p-5 text-3xl flex justify-start items-center'>
           <div className='mx-2 hover:scale-110 trans hover:cursor-pointer w-12'
