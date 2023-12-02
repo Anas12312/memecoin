@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
@@ -16,13 +16,13 @@ function App() {
   const tokenomicsRef = useRef(null);
   const roadMapRef = useRef(null);
   const contactRef = useRef(null);
-  const [play, {stop}] = useSound('../background.mp3', {
+  const [play, {pause}] = useSound('../background.mp3', {
     volume: 0.1
   });
   const [sound, setSound] = useState(false)
   const triggerSound = () => {
     if(sound){
-      stop()
+      pause()
     }else {
       play()
     }
