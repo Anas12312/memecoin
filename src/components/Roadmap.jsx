@@ -9,7 +9,8 @@ export default function Roadmap() {
             </div>
             <div className='w-[30rem] flex flex-col items-center'>
               <div className='text-8xl text-white font-Urban-Melted outline-text'>Roadmap</div>
-              <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 rounded-tr-3xl rounded-bl-3xl shadow-lg
+
+              <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 border-[#274f79] text-[#274f79] rounded-tr-3xl rounded-bl-3xl shadow-lg
                       text-white mt-10 text-4xl text-center leading-[3rem]">
                                 Phase 1: Meme
                                 <br></br>

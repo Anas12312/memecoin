@@ -38,7 +38,7 @@
     }
     .nav-bar-item {
         @apply text-white flex justify-center items-center text-3xl p-1 mx-6
-                hover:cursor-pointer hover:text-gray-300
+                hover:cursor-pointer hover:text-gray-300 font-Next-Bravo outline-text-md
     }
     .trans {
         @apply transition-all ease-linear duration-300
@@ -94,7 +94,38 @@ body {
     -webkit-text-stroke-color: black;
 }
 
+.outline-text-md {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
 .outline-text-none {
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: black;
+}
+
+
+.spikes {
+    position: relative;
+    background: #2c3e50;
+    height: 50vh;
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 20px;
+    background-size: 20px 100%;
+    background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+    background-position: 0 0;
+  }
+
+.text-gradiant {
+    background: linear-gradient(to right, #D327F6 , #27E8AC);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }

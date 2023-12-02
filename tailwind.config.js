@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-1': '#235AB9',
-        'primary-2': '#376ac3'
+        'primary-1': '#376ac3',
+        'primary-2': '#235AB9'
       },
       fontFamily: {
         'Mouse Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],

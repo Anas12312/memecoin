@@ -13,7 +13,7 @@ export default function Tokenomics() {
       </div>
 
       <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 rounded-tr-3xl rounded-bl-3xl shadow-lg
-                      text-white mt-10 text-4xl">
+                      text-white mt-10 text-4xl border-[#274f79] text-[#274f79]">
         <div>No Taxes, No Bullshit. It’s that simple. </div>
         <br></br>
         <div>LP tokens are burnt, and contract ownership is renounced. </div>
