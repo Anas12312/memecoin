@@ -17,7 +17,6 @@ export default function Navbar({
         <div className='nav-bar-item trans' onClick={scrollToAboutRef}>About</div>
         <div className='nav-bar-item trans' onClick={scrollToTokenomicsRef}>Tokenomics</div>
         <div className='nav-bar-item trans' onClick={scrollToRoadmapRef}>Roadmap</div>
-        <div className='nav-bar-item trans' onClick={scrollToContactRef}>Contact</div>
         <div className='nav-bar-item trans' onClick={comingSoon}>Air Drop</div>
         <div className='nav-bar-item trans mr-5' onClick={comingSoon}>Pre Sale</div>
         <div className='nav-bar-buy-now trans' onClick={comingSoon}>buy now</div>

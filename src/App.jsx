@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
@@ -9,13 +9,25 @@ import Tokenomics from './components/Tokenomics'
 import Roadmap from './components/Roadmap'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-
+import useSound from 'use-sound'
 function App() {
   const mainRef = useRef(null);
   const aboutRef = useRef(null);
   const tokenomicsRef = useRef(null);
   const roadMapRef = useRef(null);
   const contactRef = useRef(null);
+  const [play, {pause}] = useSound('../background.mp3', {
+    volume: 0.1
+  });
+  const [sound, setSound] = useState(false)
+  const triggerSound = () => {
+    if(sound){
+      pause()
+    }else {
+      play()
+    }
+    setSound(!sound)
+  }
   const scrollToMainRef = () => {
     mainRef.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -58,6 +70,13 @@ function App() {
       </div>
       <div>
         <Footer />
+      </div>
+      <div className='mute-button' onClick={triggerSound} >
+        {sound?(
+          <img src='../sound.png'/>
+        ):(
+          <img src='../defean.png' />
+        )}
       </div>
     </div>
   )
