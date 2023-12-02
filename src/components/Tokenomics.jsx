@@ -12,13 +12,18 @@ export default function Tokenomics() {
         <div className='text-4xl'>690,000,000,000,000</div>
       </div>
 
-
-      <div className='flex flex-col justify-center items-start text-4xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
-                              border-2 w-2/4 px-7 py-5 text-white mt-10 bg-[#274f79] rounded-tr-3xl rounded-bl-3xl'>
+      <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 rounded-tr-3xl rounded-bl-3xl shadow-lg
+                      text-white mt-10 text-4xl">
         <div>No Taxes, No Bullshit. It’s that simple. </div>
         <br></br>
         <div>LP tokens are burnt, and contract ownership is renounced. </div>
       </div>
+      {/* <div className='flex flex-col justify-center items-start text-4xl shadow-[0px_0px_30px_-10px_#FFFFFF] 
+                              border-2 w-2/4 px-7 py-5 text-white mt-10 bg-[#274f79] rounded-tr-3xl rounded-bl-3xl'>
+        <div>No Taxes, No Bullshit. It’s that simple. </div>
+        <br></br>
+        <div>LP tokens are burnt, and contract ownership is renounced. </div>
+      </div> */}
       
     </div>
   )
