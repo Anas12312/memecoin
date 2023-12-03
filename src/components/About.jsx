@@ -6,10 +6,10 @@ export default function About() {
             <div className='w-full overflow-hidden py-20 relative flex justify-center items-center'>
                 <div className='w-[80%] h-full flex'>
                     <div className='w-1/2 flex justify-center items-center'>
-                        <img className='w-[20rem]' src='https://www.symbols.com/images/symbol/2847_icy-tower-logo.png' />
+                        <img className='w-[22rem]' src='../../HAROLD_FULL_BODY.png' />
                     </div>
                     <div className='w-[40rem] flex flex-col p-2'>
-                        <div className='text-8xl text-white text-center m-10  font-Urban-Melted outline-text'>
+                        <div className='text-8xl text-white text-center m-10  font-Urban-Melted outline-text text-gradiant'>
                             about
                         </div>
                         <div className='text-3xl text-white font-Chewy'>
@@ -18,7 +18,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
