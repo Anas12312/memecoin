@@ -3,7 +3,7 @@ import React from 'react'
 export default function Tokenomics() {
   return (
     <div className='w-full overflow-hidden pt-14 pb-32 relative bg-green flex flex-col items-center border-y-4 border-white'>
-      <div className='text-8xl text-white font-Urban-Melted outline-text'>
+      <div className='text-8xl text-white font-Urban-Melted outline-text text-gradiant'>
         TOKENOMICS
       </div>
 
@@ -13,7 +13,7 @@ export default function Tokenomics() {
       </div>
 
       <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-6 rounded-tr-3xl rounded-bl-3xl shadow-lg
-                      text-white mt-10 text-4xl border-[#274f79] text-[#274f79]">
+                      text-white mt-10 text-4xl border-[#274f79]">
         <div>No Taxes, No Bullshit. It’s that simple. </div>
         <br></br>
         <div>LP tokens are burnt, and contract ownership is renounced. </div>

@@ -17,8 +17,8 @@ export default function Main() {
                             the meme champion disrupting the crypto arena. The canine craze fades as Harold steps up to claim the throne from Pepe!
                         </div>
                     </div>
-                    <div className='h-full w-[20%]'>
-                        <img className='w-[22rem]' src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" />
+                    <div className='h-full w-[28%]'>
+                        <img className='w-[22rem]' src="../../falling_harold.png" alt="" />
                     </div>
                 </div>
             </div>
