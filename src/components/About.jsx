@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <div className='w-full overflow-hidden py-20 relative flex justify-center items-center'>
+            <div className='w-full overflow-hidden py-20 relative flex justify-center items-center container'>
                 <div className='w-[80%] h-full flex blur-bg p-4 border-2 border-black rounded-lg'>
                     <div className='w-1/2 flex justify-center items-center'>
                         <img className='w-[22rem]' src='../../HAROLD_FULL_BODY.png' />
@@ -13,7 +13,9 @@ export default function About() {
                             about
                         </div>
                         <div className='text-3xl text-white font-Chewy'>
-                            Harold, a tribute to the iconic meme, steps into the crypto arena, breaking free from the endless Inu coin frenzy. In a world cluttered with derivatives, Harold is here to reclaim the throne for memecoins on the Solana blockchain. Launched without a presale, featuring zero taxes, burnt LP, and a renounced contract, $HAROLD is a coin crafted for the people, fueled by the raw power of memes. Let Harold guide you on a meme-filled journey towards a brighter and more
+                            Harold, channeling his inner game character icon, takes a cosmic dive into the crypto colosseum, breaking free from the never-ending Inu coin chaos. Epic entrance level: Over 9000!
+
+                            In the wild world of crypto derivatives, behold the rise of our quirky hero, Harold! He's on a mission to reclaim the memecoin throne on the Solana blockchain. With zero taxes, burnt LP, and a renounced contract, $HAROLD becomes the official currency for OG gamers, powered by the unruly force of memes. 
                         </div>
                     </div>
                 </div>

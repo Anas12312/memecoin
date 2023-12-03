@@ -13,12 +13,9 @@ export default function Main() {
                         <div className='p-5 text-6xl font-Next-Bravo outline-text text-gradiant'>
                             <h1>$Harold</h1>
                         </div>
-                        <div className='p-5 text-4xl w-4/5 font-Chewy'>
-                            the meme champion disrupting the crypto arena. The canine craze fades as Harold steps up to claim the throne from Pepe!
+                        <div className='h-full w-[28%]'>
+                            <img className='w-[22rem]' src="../../falling_harold.png" alt="" />
                         </div>
-                    </div>
-                    <div className='h-full w-[28%]'>
-                        <img className='w-[22rem]' src="../../falling_harold.png" alt="" />
                     </div>
                 </div>
             </div>
