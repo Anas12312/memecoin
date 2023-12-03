@@ -16,8 +16,9 @@ function App() {
   const tokenomicsRef = useRef(null);
   const roadMapRef = useRef(null);
   const contactRef = useRef(null);
+
   const [play, {pause}] = useSound('../background.mp3', {
-    volume: 0.1
+    volume: 0.2
   });
   const [sound, setSound] = useState(false)
   const triggerSound = () => {
@@ -28,6 +29,9 @@ function App() {
     }
     setSound(!sound)
   }
+  document.addEventListener('DOMContentLoaded', ()=>{
+    play()
+  })
   const scrollToMainRef = () => {
     mainRef.current.scrollIntoView({ behavior: 'smooth' });
   };
