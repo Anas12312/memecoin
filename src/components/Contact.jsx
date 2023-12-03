@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-t-4'>
+    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-t-4 container'>
         <div className='w-[50%] h-full flex flex-col items-center'>
             <div className='text-xl text-white mb-8'>
                 <img className='w-28' src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" />
