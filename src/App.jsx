@@ -10,6 +10,7 @@ import Roadmap from './components/Roadmap'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import useSound from 'use-sound'
+import SectionBreaker from './components/SectionBreaker'
 function App() {
   const mainRef = useRef(null);
   const aboutRef = useRef(null);
@@ -60,15 +61,19 @@ function App() {
       <div ref={mainRef}>
         <Main />
       </div>
+      <SectionBreaker />
       <div ref={aboutRef}>
         <About />
       </div>
+      <SectionBreaker />
       <div ref={tokenomicsRef}>
         <Tokenomics />
       </div>
+      <SectionBreaker />
       <div ref={roadMapRef}>
         <Roadmap />
       </div>
+      <SectionBreaker />
       <div ref={contactRef}>
         <Contact />
       </div>

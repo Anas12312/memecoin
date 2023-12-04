@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 
 export default function Roadmap() {
   return (
-    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-y-4 border-white container'>
+    <div className='w-full overflow-hidden py-20 relative flex justify-center items-center border-white container'>
         <div className='w-[80%] h-full flex blur-bg p-4 border-2 border-black rounded-lg'>
             <div className='w-1/3 flex justify-end items-center'>
               <img className='w-[600px]' src="../../PEE123.png" alt="" />
