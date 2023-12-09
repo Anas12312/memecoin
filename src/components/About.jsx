@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <div className='w-full overflow-hidden py-20 relative flex justify-center items-center container'>
+            <div className='w-full overflow-hidden py-20 relative flex justify-center items-center container-anas'>
                 <div className='w-[80%] h-full flex blur-bg p-4 border-2 border-black rounded-lg'>
                     <div className='w-1/2 flex justify-center items-center'>
                         <img className='w-[22rem]' src='../../HAROLD_FULL_BODY.png' />

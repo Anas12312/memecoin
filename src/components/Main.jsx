@@ -5,7 +5,7 @@ export default function Main() {
     const myRef = useRef(null)
 
     return (
-        <div className='container'>
+        <div className='w-full relative flex container-anas justify-center items-center'>
             <div className='w-full overflow-hidden pb-20 relative border-white h-[40rem]' ref={myRef}>
                 <img className='object-cover opacity-20' src="" alt="" />
                 <div className='w-full h-full absolute top-0 flex flex-col justify-center items-center'>

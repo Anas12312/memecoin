@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar({
   scrollToMainRef,
-  scrollToAboutRef,
+  scrollToAboutRef, 
   scrollToTokenomicsRef,
   scrollToRoadmapRef,
 }) {
@@ -16,7 +16,7 @@ export default function Navbar({
     alert('Coming Soon...')
   }
   return (
-    <div className='nav-bar z-10'>
+    <div className='nav-bar z-10 '>
         <div className='mr-10 w-20'><img src="https://www.symbols.com/images/symbol/2847_icy-tower-logo.png" alt="" /></div>
         <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToMainRef}>Home</div>
         <div className='nav-bar-item trans' onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={scrollToAboutRef}>About</div>

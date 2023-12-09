@@ -58,23 +58,23 @@ function App() {
         scrollToRoadmapRef={scrollToRoadmapRef}
         scrollToContactRef={scrollToContactRef}
       />
-      <div ref={mainRef}>
+      <div className='w-full' ref={mainRef}>
         <Main />
       </div>
       <SectionBreaker />
-      <div ref={aboutRef}>
+      <div className='w-full' ref={aboutRef}>
         <About />
       </div>
       <SectionBreaker />
-      <div ref={tokenomicsRef}>
+      <div className='w-full' ref={tokenomicsRef}>
         <Tokenomics />
       </div>
       <SectionBreaker />
-      <div ref={roadMapRef}>
+      <div className='w-full' ref={roadMapRef}>
         <Roadmap />
       </div>
       <SectionBreaker />
-      <div ref={contactRef}>
+      <div className='w-full' ref={contactRef}>
         <Contact />
       </div>
       <div>

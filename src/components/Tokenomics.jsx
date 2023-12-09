@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Tokenomics() {
   return (
-    <div className='w-full overflow-hidden pt-14 pb-32 relative bg-green flex flex-col items-center border-white container'>
+    <div className='w-full overflow-hidden pt-14 pb-32 relative bg-green flex flex-col items-center border-white container-anas'>
       <div className='flex flex-col items-center blur-bg p-8 border-2 border-black rounded-lg'>
         <div className='text-8xl text-white font-Urban-Melted outline-text text-gradiant'>
           TOKENOMICS
